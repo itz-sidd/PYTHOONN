@@ -1,0 +1,13 @@
+prefix=D:/PYTHOONN/venv/Library
+exec_prefix=D:/PYTHOONN/venv/Library
+libdir=D:/PYTHOONN/venv/Library/lib
+sharedlibdir=D:/PYTHOONN/venv/Library/lib
+includedir=D:/PYTHOONN/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

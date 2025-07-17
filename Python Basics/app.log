@@ -1,0 +1,11 @@
+2025-07-17 11:11:28-DEBUG-this is a debug message
+2025-07-17 11:11:28-INFO-info message
+2025-07-17 11:11:28-WARNING-warning message
+2025-07-17 11:11:28-ERROR-error msg
+2025-07-17 11:11:28-CRITICAL-critical mesaage
+2025-07-17 11:28:45-DEBUG-This is a debug msg for module 1
+2025-07-17 11:28:45-WARNING-This is a warning message for module2
+2025-07-17 11:28:45-ERROR-This is a error message for module 2
+2025-07-17 11:29:07-DEBUG-This is a debug msg for module 1
+2025-07-17 11:29:07-WARNING-This is a warning message for module2
+2025-07-17 11:29:07-ERROR-This is a error message for module 2
