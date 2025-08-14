@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fail Report</title>
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 500px;
+            margin: auto;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #d9534f;
+        }
+        ul {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Failing Subjects Report</h2>
+        <p>Passing mark: {{ passing_score }}</p>
+
+        {% if failed_subjects %}
+            <p>Student has failed in the following subjects:</p>
+            <ul>
+                {% for subject in failed_subjects %}
+                    <li>{{ subject }}</li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>🎉 Congratulations! The student has passed all subjects.</p>
+        {% endif %}
+    </div>
+</body>
+</html>
